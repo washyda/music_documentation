@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Music Api",
   description: "API about music",
-  base: "/music_api/",
+  base: "/music_documentation/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
