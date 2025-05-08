@@ -5,6 +5,19 @@ export default defineConfig({
   title: "Music Api",
   description: "API about music",
   base: "/music_documentation/",
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    'zh-CN': {
+      label: '中文',
+      lang: 'zh-CN', // 可选，将作为 `lang` 属性添加到 `html` 标签中
+      // link: '/zh-CN' // 默认 /fr/ -- 显示在导航栏翻译菜单上，可以是外部的
+
+      // 其余 locale 特定属性...
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
